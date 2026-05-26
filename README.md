@@ -1,32 +1,46 @@
 # Mandarin Dubbing Perception Flipbook
 
-這是一個可部署到 GitHub Pages 的靜態翻頁網站，用來展示完整研究文件。
+本專案為「語言的人文與科學」期末報告之補充展示頁，將完整研究文件製作成可線上翻閱的互動式 flipbook，並部署於 GitHub Pages，方便於簡報中透過 QR Code 連結查看。
 
-## 檔案結構
+## Project Overview
+
+本研究探討非華語母語者是否能感受到台灣華語與中國普通話在語音、語氣與聽感上的差異，並以《花木蘭》兩岸配音版本作為研究材料。
+
+研究透過問卷調查政大國際學生對四組配音片段的評價，分析受試者對「親切感」、「柔和感」與「直接／強烈感」的主觀判斷，以及造成這些感受差異的可能因素。
+
+## Research Topic
+
+**兩岸華語語音與語氣差異對非華語母語者聽感的影響**  
+——以非華語母語者對《花木蘭》兩岸配音版本之評價為例——
+
+## Website Features
+
+- 線上翻閱完整研究文件
+- 支援上一頁／下一頁操作
+- 支援鍵盤方向鍵翻頁
+- 支援頁碼跳轉
+- 支援夜間模式
+- 手機版自動切換為單頁閱讀
+- 可直接開啟原始 PDF
+- 適合搭配簡報 QR Code 使用
+
+## Research Highlights
+
+- 有效樣本：30 位非華語母語者
+- 研究材料：4 組《花木蘭》台灣華語與中國普通話配音片段
+- 主要評價面向：親切／容易接近、柔和／溫和、直接／強烈
+- 主要發現：
+  - 台灣配音較常被評為親切與柔和
+  - 中國配音較常被評為直接與強烈
+  - 受試者主要透過語調、發音、語速與咬字清晰度判斷語氣差異
+
+## File Structure
 
 ```text
-index.html
-style.css
-script.js
-assets/
-  report.pdf
-  pages/
-    page-01.webp
-    page-02.webp
-    ...
-```
-
-## 部署到 GitHub Pages
-
-1. 建立 repo，例如 `mandarin-dubbing-flipbook`。
-2. 將本資料夾內所有檔案上傳到 repo 根目錄。
-3. 進入 GitHub repo 的 Settings → Pages。
-4. Source 選擇 `Deploy from a branch`。
-5. Branch 選擇 `main`，資料夾選 `/root`。
-6. 儲存後等待 GitHub Pages 產生網址。
-
-## 建議
-
-- QR Code 請使用 GitHub Pages 產生的網址。
-- `assets/report.pdf` 是完整研究 PDF。
-- 翻頁器使用已轉好的 WebP 頁面圖片，不需要後端。
+.
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── report.pdf
+└── README.md
