@@ -1,4 +1,31 @@
-const pages = ["assets/pages/page-01.webp", "assets/pages/page-02.webp", "assets/pages/page-03.webp", "assets/pages/page-04.webp", "assets/pages/page-05.webp", "assets/pages/page-06.webp", "assets/pages/page-07.webp", "assets/pages/page-08.webp", "assets/pages/page-09.webp", "assets/pages/page-10.webp", "assets/pages/page-11.webp", "assets/pages/page-12.webp", "assets/pages/page-13.webp", "assets/pages/page-14.webp", "assets/pages/page-15.webp", "assets/pages/page-16.webp", "assets/pages/page-17.webp", "assets/pages/page-18.webp", "assets/pages/page-19.webp", "assets/pages/page-20.webp", "assets/pages/page-21.webp", "assets/pages/page-22.webp", "assets/pages/page-23.webp", "assets/pages/page-24.webp"];
+// 動態設定基礎路徑 (由 HTML 中的 script 定義)
+const baseUrl = window.basePath || '';
+const pages = [
+  baseUrl + "/assets/pages/page-01.webp",
+  baseUrl + "/assets/pages/page-02.webp",
+  baseUrl + "/assets/pages/page-03.webp",
+  baseUrl + "/assets/pages/page-04.webp",
+  baseUrl + "/assets/pages/page-05.webp",
+  baseUrl + "/assets/pages/page-06.webp",
+  baseUrl + "/assets/pages/page-07.webp",
+  baseUrl + "/assets/pages/page-08.webp",
+  baseUrl + "/assets/pages/page-09.webp",
+  baseUrl + "/assets/pages/page-10.webp",
+  baseUrl + "/assets/pages/page-11.webp",
+  baseUrl + "/assets/pages/page-12.webp",
+  baseUrl + "/assets/pages/page-13.webp",
+  baseUrl + "/assets/pages/page-14.webp",
+  baseUrl + "/assets/pages/page-15.webp",
+  baseUrl + "/assets/pages/page-16.webp",
+  baseUrl + "/assets/pages/page-17.webp",
+  baseUrl + "/assets/pages/page-18.webp",
+  baseUrl + "/assets/pages/page-19.webp",
+  baseUrl + "/assets/pages/page-20.webp",
+  baseUrl + "/assets/pages/page-21.webp",
+  baseUrl + "/assets/pages/page-22.webp",
+  baseUrl + "/assets/pages/page-23.webp",
+  baseUrl + "/assets/pages/page-24.webp"
+];
 const totalPages = pages.length;
 let currentPage = 1;
 let isAnimating = false;
@@ -87,4 +114,11 @@ if (localStorage.getItem('flipbook-theme') === 'dark') {
   document.body.classList.add('dark');
   themeToggle.textContent = '日間模式';
 }
+
+// 設定 PDF 連結
+const pdfLink = document.getElementById('pdfLink');
+const pdfLink2 = document.getElementById('pdfLink2');
+if (pdfLink) pdfLink.href = baseUrl + '/assets/report.pdf';
+if (pdfLink2) pdfLink2.href = baseUrl + '/assets/report.pdf';
+
 render();

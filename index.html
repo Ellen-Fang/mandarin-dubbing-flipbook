@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>兩岸華語語音與語氣差異研究｜Flipbook</title>
   <meta name="description" content="期末研究補充資料：兩岸華語語音與語氣差異對非華語母語者聽感的影響" />
+  <script>
+    // 設定基礎路徑以支持 GitHub Pages 部署
+    const repoName = 'mandarin-dubbing-flipbook';
+    const pathName = window.location.pathname;
+    window.basePath = pathName.includes(repoName) ? `/${repoName}` : '';
+  </script>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,7 +24,7 @@
     </a>
     <nav class="header-actions" aria-label="Page actions">
       <button id="themeToggle" class="ghost-btn" type="button">夜間模式</button>
-      <a class="ghost-btn" href="assets/report.pdf" target="_blank" rel="noopener">開啟 PDF</a>
+      <a id="pdfLink" class="ghost-btn" href="#" target="_blank" rel="noopener">開啟 PDF</a>
     </nav>
   </header>
 
@@ -94,7 +100,7 @@
         <h2>需要原始 PDF？</h2>
         <p>翻頁器以圖片呈現完整文件；若需要搜尋文字、下載或列印，可直接開啟 PDF。</p>
       </div>
-      <a class="primary-link" href="assets/report.pdf" target="_blank" rel="noopener">查看完整 PDF</a>
+      <a id="pdfLink2" class="primary-link" href="#" target="_blank" rel="noopener">查看完整 PDF</a>
     </section>
   </main>
 
