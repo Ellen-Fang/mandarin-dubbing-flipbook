@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>兩岸華語語音與語氣差異研究｜Flipbook</title>
+  <meta name="description" content="期末研究補充資料：兩岸華語語音與語氣差異對非華語母語者聽感的影響" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <span class="brand-mark">聲</span>
+      <span class="brand-text">Mandarin Dubbing Perception</span>
+    </a>
+    <nav class="header-actions" aria-label="Page actions">
+      <button id="themeToggle" class="ghost-btn" type="button">夜間模式</button>
+      <a class="ghost-btn" href="assets/report.pdf" target="_blank" rel="noopener">開啟 PDF</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">語言的人文與科學｜期末研究補充資料</p>
+      <h1>兩岸華語語音與語氣差異對非華語母語者聽感的影響</h1>
+      <p class="subtitle">以非華語母語者對《花木蘭》兩岸配音版本之評價為例</p>
+      <div class="waveform" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <p class="hero-note">使用下方翻頁器閱讀完整研究文件。支援滑鼠、鍵盤方向鍵、手機按鈕與頁碼跳轉。</p>
+    </section>
+
+    <section class="reader-shell" aria-label="Flipbook reader">
+      <div class="reader-toolbar">
+        <div class="toolbar-group">
+          <button id="firstBtn" class="tool-btn" type="button">首頁</button>
+          <button id="prevBtn" class="tool-btn" type="button">上一頁</button>
+          <button id="nextBtn" class="primary-btn" type="button">下一頁</button>
+          <button id="lastBtn" class="tool-btn" type="button">末頁</button>
+        </div>
+        <div class="toolbar-group page-control">
+          <label for="pageInput">頁碼</label>
+          <input id="pageInput" type="number" min="1" max="24" value="1" />
+          <span id="pageTotal">/ 24</span>
+        </div>
+      </div>
+
+      <div class="book-stage" id="bookStage">
+        <button id="stagePrev" class="stage-hit stage-hit-left" type="button" aria-label="上一頁"></button>
+        <div class="book" id="book" aria-live="polite">
+          <div class="page-slot left-slot" id="leftSlot">
+            <img id="leftPage" alt="左頁" />
+            <div class="page-shadow"></div>
+          </div>
+          <div class="spine" aria-hidden="true"></div>
+          <div class="page-slot right-slot" id="rightSlot">
+            <img id="rightPage" alt="右頁" />
+            <div class="page-shadow"></div>
+          </div>
+        </div>
+        <button id="stageNext" class="stage-hit stage-hit-right" type="button" aria-label="下一頁"></button>
+      </div>
+
+      <div class="reader-footer">
+        <div id="spreadLabel" class="spread-label">Page 1</div>
+        <div class="hint">鍵盤可用 ← / → 翻頁；手機版會自動改成單頁閱讀。</div>
+      </div>
+    </section>
+
+    <section class="summary-grid" aria-label="Research quick summary">
+      <article class="info-card">
+        <span class="card-number">30</span>
+        <h2>有效樣本</h2>
+        <p>以政大國際學生為對象，排除華語母語或近母語背景者。</p>
+      </article>
+      <article class="info-card">
+        <span class="card-number">4</span>
+        <h2>配音片段組</h2>
+        <p>選取《花木蘭》台灣華語與中國普通話配音片段進行比較。</p>
+      </article>
+      <article class="info-card">
+        <span class="card-number">3</span>
+        <h2>評價面向</h2>
+        <p>比較親切／容易接近、柔和／溫和、直接／強烈等語氣印象。</p>
+      </article>
+    </section>
+
+    <section class="download-panel">
+      <div>
+        <p class="eyebrow">Full Report</p>
+        <h2>需要原始 PDF？</h2>
+        <p>翻頁器以圖片呈現完整文件；若需要搜尋文字、下載或列印，可直接開啟 PDF。</p>
+      </div>
+      <a class="primary-link" href="assets/report.pdf" target="_blank" rel="noopener">查看完整 PDF</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>語言的人文與科學｜期末研究補充資料</p>
+    <p>© 2026 Mandarin Dubbing Perception Study</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
