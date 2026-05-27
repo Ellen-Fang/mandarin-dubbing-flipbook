@@ -2,6 +2,8 @@
 
 本專案為「語言的人文與科學」期末報告之補充展示頁，將完整研究文件製作成可線上翻閱的互動式 flipbook，並部署於 GitHub Pages，方便於簡報中透過 QR Code 連結查看。
 
+🎬 **[線上查看 Flipbook](https://ellen-fang.github.io/mandarin-dubbing-flipbook/)**
+
 ## Project Overview
 
 本研究探討非華語母語者是否能感受到台灣華語與中國普通話在語音、語氣與聽感上的差異，並以《花木蘭》兩岸配音版本作為研究材料。
