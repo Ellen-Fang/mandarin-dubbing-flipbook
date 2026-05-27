@@ -1,49 +1,51 @@
 # Mandarin Dubbing Perception Flipbook
 
-本專案為「語言的人文與科學」期末報告之補充展示頁，將完整研究文件製作成可線上翻閱的互動式 flipbook，並部署於 GitHub Pages，方便於簡報中透過 QR Code 連結查看。
+Interactive flipbook for a Mandarin dubbing perception study, deployed with GitHub Pages.
 
-🎬 **[線上查看 Flipbook](https://ellen-fang.github.io/mandarin-dubbing-flipbook/)**
+## 🎬 View the Flipbook
 
-## Project Overview
+https://ellen-fang.github.io/mandarin-dubbing-flipbook/
 
-本研究探討非華語母語者是否能感受到台灣華語與中國普通話在語音、語氣與聽感上的差異，並以《花木蘭》兩岸配音版本作為研究材料。
+## About This Project
 
-研究透過問卷調查政大國際學生對四組配音片段的評價，分析受試者對「親切感」、「柔和感」與「直接／強烈感」的主觀判斷，以及造成這些感受差異的可能因素。
+This project presents supplementary materials for a research paper on "The Impact of Phonetic and Prosodic Differences between Taiwan Mandarin and Mainland Putonghua on Non-Native Speakers' Listening Perception."
 
-## Research Topic
+The complete research document is presented as an interactive online flipbook using audio clips and comparisons from Mandarin versions of Disney's *Mulan*.
 
-**兩岸華語語音與語氣差異對非華語母語者聽感的影響**  
-——以非華語母語者對《花木蘭》兩岸配音版本之評價為例——
+## Key Research Details
 
-## Website Features
+- **Sample**: 30 non-native Mandarin speakers
+- **Study Material**: 4 pairs of *Mulan* Mandarin dubbed clips (Taiwan vs. Mainland versions)
+- **Evaluation Dimensions**: Friendliness, Softness, Directness/Intensity
+- **Key Findings**:
+  - Taiwan version perceived as more friendly and softer
+  - Mainland version perceived as more direct and intense
+  - Respondents distinguish versions primarily through intonation, pronunciation, speech rate, and articulation clarity
 
-- 線上翻閱完整研究文件
-- 支援上一頁／下一頁操作
-- 支援鍵盤方向鍵翻頁
-- 支援頁碼跳轉
-- 支援夜間模式
-- 手機版自動切換為單頁閱讀
-- 可直接開啟原始 PDF
-- 適合搭配簡報 QR Code 使用
+## Features
 
-## Research Highlights
-
-- 有效樣本：30 位非華語母語者
-- 研究材料：4 組《花木蘭》台灣華語與中國普通話配音片段
-- 主要評價面向：親切／容易接近、柔和／溫和、直接／強烈
-- 主要發現：
-  - 台灣配音較常被評為親切與柔和
-  - 中國配音較常被評為直接與強烈
-  - 受試者主要透過語調、發音、語速與咬字清晰度判斷語氣差異
+- Interactive page navigation (mouse, arrow keys, buttons)
+- Page number input for quick jump
+- Dark mode support
+- Mobile-responsive single-page view
+- Direct PDF access
+- QR-code friendly for presentations
 
 ## File Structure
 
-```text
-.
+```
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
-│   └── pages/
-│       └── page-01.webp ~ page-24.webp
-└── README.md
+├── README.md
+└── assets/
+    └── pages/
+        ├── page-01.webp
+        ├── page-02.webp
+        ...
+        └── page-24.webp
+```
+
+---
+
+Made for the course "The Humanities and Science of Language" • National Chengchi University
