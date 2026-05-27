@@ -42,5 +42,6 @@
 ├── style.css
 ├── script.js
 ├── assets/
-│   └── report.pdf
+│   └── pages/
+│       └── page-01.webp ~ page-24.webp
 └── README.md
